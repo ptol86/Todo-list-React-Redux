@@ -9,7 +9,7 @@ module.exports = (env, argv) => {
     entry: "./src/index.jsx",
     output: {
       filename: "bundle.js",
-      path: __dirname + '/review_build',
+      path: __dirname + '/build',
 
     },
     module: {
